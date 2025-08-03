@@ -1,6 +1,6 @@
 let characters = [
-    { name: "bear", x: 100, y: 450, size: 240, sprite: null, strength: 0.3, health: 100, hitTimer: 0, hitScale: 1, lastAngle: 45, lastPower: 50, throwLog: [] },
-    { name: "squirrel", x: 900, y: 450, size: 150, sprite: null, strength: 0.2, health: 100, hitTimer: 0, hitScale: 1, lastAngle: 135, lastPower: 50, throwLog: [] }
+    { name: "bear", x: 100, y: 450, size: 240, sprite: null, strength: 0.3, health: 25, hitTimer: 0, hitScale: 1, lastAngle: 45, lastPower: 50, throwLog: [] },
+    { name: "squirrel", x: 900, y: 450, size: 150, sprite: null, strength: 0.2, health: 25, hitTimer: 0, hitScale: 1, lastAngle: 135, lastPower: 50, throwLog: [] }
 ];
 let projectiles = [
     { name: "apple", size: 20, weight: 0.5, color: [255, 0, 0], sprite: null },
